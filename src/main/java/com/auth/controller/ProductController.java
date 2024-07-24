@@ -1,7 +1,7 @@
-package com.todo.app.controller;
+package com.auth.controller;
 
-import com.todo.app.model.Product;
-import com.todo.app.service.ProductService;
+import com.auth.model.Product;
+import com.auth.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;

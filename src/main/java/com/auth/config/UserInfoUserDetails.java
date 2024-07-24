@@ -1,10 +1,9 @@
-package com.todo.app.config;
+package com.auth.config;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import javax.swing.plaf.PanelUI;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
@@ -16,7 +15,7 @@ public class UserInfoUserDetails implements UserDetails {
     private String password;
     private List<GrantedAuthority> grantedAuthorities;
 
-    public UserInfoUserDetails(com.todo.app.entity.UserDetails userInfo) {
+    public UserInfoUserDetails(com.auth.entity.UserDetails userInfo) {
         userName=userInfo.getUserName();
         password=userInfo.getPassword();
         grantedAuthorities= Arrays.stream(userInfo.getRole().split(","))

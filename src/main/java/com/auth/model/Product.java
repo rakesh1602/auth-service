@@ -1,4 +1,4 @@
-package com.todo.app.model;
+package com.auth.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

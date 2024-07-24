@@ -1,7 +1,6 @@
-package com.todo.app.service;
+package com.auth.service;
 
-import com.todo.app.model.Product;
-import jakarta.annotation.PostConstruct;
+import com.auth.model.Product;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
