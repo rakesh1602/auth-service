@@ -20,5 +20,7 @@ public class UserDetails {
     private String userName;
     private String emailId;
     private String password;
+    private Long phoneNumber;
+    private String address;
     private String role;
 }
